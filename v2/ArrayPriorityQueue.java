@@ -48,10 +48,10 @@ public class ArrayPriorityQueue implements PriorityQueue{
 	kenny.add("d");
 	kenny.add("e");
 	
-	System.out.println(kenny.removeMin());//should be f
-	System.out.println(kenny.removeMin());//should be e	
-	System.out.println(kenny.removeMin());//should be e
-	System.out.println(kenny.removeMin());//should be e
+	System.out.println(kenny.removeMin());//should be a
+	System.out.println(kenny.removeMin());//should be b	
+	System.out.println(kenny.removeMin());//should be c
+	System.out.println(kenny.removeMin());//should be d
 	
 
     }
