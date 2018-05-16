@@ -24,7 +24,7 @@ Lab #03
        
 # Methods Explained
 ### toString():
-
+      Runtime: O(n)
 
 ### isEmpty():   
       Runtime: O(1)  
