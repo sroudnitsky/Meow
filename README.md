@@ -5,20 +5,20 @@ Lab #03
 
 # Heap Todo
 
-### 1. constructor  
+### 1. constructor ✓  
        We made the constructor first because without a constructor there is no object,     
        which we need to make the main method. 
-### 2. toString()  
+### 2. toString() ✓    
        It's important to have a clear visual of what your methods are doing. Important for testing. 
-### 3. isEmpty()   
+### 3. isEmpty() ✓      
        Needed for remove() method. Easy to implement.  
-### 4. peekMin()   
+### 4. peekMin() ✓      
        Needed for remove() method. Easy to implement.  
-### 5. add()   
+### 5. add() ✓     
        Needed for remove. You can't remove without adding first. 
-### 6. minChildPos()   
+### 6. minChildPos() ✓     
        Needed for removeMin().
-### 7. removeMin()   
+### 7. removeMin() ✓     
        Every method preceding this is intended to make this work. 
        
        
