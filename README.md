@@ -1,12 +1,13 @@
 # Meow
 # isEmpty()
-Constant time just returns if the size is 0
+O(1) because it just returns if the size is 0 and doesn't loop through anything.
 # add()
-We've decided to use the add method to determine the priority of strings being added into the ArrList 
-Strings with highest priority to be removed will be placed at the end of the Array
-At the  worst case this will run in o(n) time
+Our algorithm:
+adds a new Integer to the end of the _heap ArrayList. Checks if the integer of the child is less than that of the parent. If so, swap the parent and child. Continue doing this until the element being added is greater than that of its parent.
+Best case: O(1), when the element is already in proper position upon insertion.
+Worst case: O(log n), when the element needs to be placed on top of the heap.
 # removeMin()
-Due to the way the add method works we only have to remove the last element in the ArrayList which is given by
-\_data.size() - 1 Thus it is constant time
+
+_data.size() - 1 Thus it is constant time
 # peekMin()
-Peek min will just use get on the last item in the ArrayList thus it is constant time
+O(1) because it simply returns the smallest value in the heap, aka the first element in the heap. 
