@@ -27,11 +27,12 @@ Lab #03
 
 
 ### isEmpty():   
-      Constant time just returns if the size is 0  
+      Runtime: O(1)  
+      Returns true if size is 0. 
       
 
 ### peekMin():  
-      Peek min will just use get on the last item in the ArrayList thus it is constant time  
+      Runtime: O(1)
 
 
       
@@ -41,6 +42,7 @@ Lab #03
       At the  worst case this will run in o(n) time  
       
 ### minChildPos():
+      Runtime: O(1)
 
        
 ### removeMin():  
